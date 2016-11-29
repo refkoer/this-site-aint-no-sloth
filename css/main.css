@@ -41,6 +41,7 @@ h1 {
 .banner-border {
   border-top: 3px solid #fff;
 }
+
 h1, figcaption {
   font-family: Georgia, serif;
 }
@@ -64,7 +65,7 @@ figcaption {
 }
 
 .embed-item {
-  border-top: 3px solid #fff;
+  border-top: 2px solid #fff;
 }
 
 .banner {
@@ -77,11 +78,11 @@ figcaption {
 }
 
 footer {
-  border-top: 2px solid #000;
+  border-top: 2px solid rgb(28, 14, 0);
   padding-top: .8rem;
   padding-bottom: .8rem;
 }
 
 a {
-  color: #000;
+  color: rgb(28, 14, 0);
 }
