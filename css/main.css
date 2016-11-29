@@ -25,3 +25,11 @@ body{
   margin: 0;
   background-color: #bea586;
 }
+
+.banner{
+  background-image: url("../images/sloth-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 40em auto;
+  background-position: .3em center;
+  border-top: 2px solid #fff;
+}
