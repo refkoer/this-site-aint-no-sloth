@@ -58,12 +58,12 @@ figcaption {
 }
 
 .embed {
-  border-top: 2px solid rgb(28, 14, 0);
+  border-top: 2px solid #fff;
 }
 
 .embed-item {
-  border-top: 5px solid #fff;
-  border-bottom: 5px solid #fff;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 
 .banner {
