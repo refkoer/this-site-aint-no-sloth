@@ -17,6 +17,11 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  border-top: 2px solid rgb(28, 14, 0);
+  border-bottom: 2px solid rgb(28, 14, 0);
+}
+
 body {
   background-image: url("../images/sloth-bg.svg");
   background-repeat: repeat;
@@ -39,17 +44,22 @@ h1, figcaption {
   font-family: Georgia, serif;
 }
 
-main {
+header, main, footer {
   background-color: #fff;
 }
 
 figure {
-  border-top: 3px solid #000;
-  border-bottom: 3px solid #000;
+  margin: 0;
 }
 
 figcaption {
-  border-bottom: 2px solid rgb(28, 14, 0);
+  border-bottom: 1px solid rgb(28, 14, 0);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.embed {
+  border-top: 2px solid rgb(28, 14, 0);
 }
 
 .embed-item {
@@ -61,12 +71,7 @@ figcaption {
   border-top: 2px solid #fff;
 }
 
-.top {
-  background-color: #fff;
-}
-
 footer {
-  background-color: #fff;
   padding-top: .8rem;
   padding-bottom: .8rem;
 }
