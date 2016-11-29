@@ -35,7 +35,7 @@ h1 {
   padding-bottom: 3rem;
 }
 
-h1, figcaption{
+h1, figcaption {
   font-family: Georgia, serif;
 }
 
@@ -49,7 +49,7 @@ figure {
 }
 
 figcaption {
-  border-bottom: 2px solid rgb(28, 14, 0)
+  border-bottom: 2px solid rgb(28, 14, 0);
 }
 
 .embed-item {
@@ -58,7 +58,11 @@ figcaption {
 
 .banner {
   border-bottom: 2px solid #fff;
-  border-top: 2px solid #fff;  
+  border-top: 2px solid #fff;
+}
+
+.top {
+  background-color: #fff;
 }
 
 footer {
