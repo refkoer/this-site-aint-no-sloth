@@ -18,7 +18,6 @@ html {
 }
 
 header {
-  border-top: 2px solid rgb(28, 14, 0);
   border-bottom: 2px solid rgb(28, 14, 0);
 }
 
@@ -39,6 +38,9 @@ h1 {
   padding-bottom: 3rem;
 }
 
+.banner-border {
+  border-top: 3px solid #fff;
+}
 h1, figcaption {
   font-family: Georgia, serif;
 }
@@ -58,17 +60,20 @@ figcaption {
 }
 
 .embed {
-  border-top: 2px solid #fff;
+  border-top: 2px solid rgb(28, 14, 0);
 }
 
 .embed-item {
   border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
 }
 
 .banner {
-  border-bottom: 2px solid #fff;
-  border-top: 2px solid #fff;
+  border-bottom: solid 3px #fff;
+  border-top: 2px solid rgb(28, 14, 0);
+}
+
+.footer-border {
+  border-bottom: 3px solid #fff;
 }
 
 footer {
